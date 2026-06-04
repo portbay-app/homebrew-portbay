@@ -4,6 +4,8 @@ cask "portbay" do
 
   url "https://github.com/portbay-app/portbay/releases/download/v#{version}/PortBay_0.1.2_aarch64.dmg"
   name "PortBay"
+
+  depends_on arch: :arm64
   desc "Lightweight local development environment manager"
   homepage "https://portbay.app"
 
