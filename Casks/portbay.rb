@@ -1,8 +1,8 @@
 cask "portbay" do
-  version "0.1.4"
-  sha256 "eac2c48a75dd75aca93d4221782ec13e809fb1c52d04064d4c955e7c2a49ef43"
+  version "0.1.5"
+  sha256 "c254205de7560955e8ae0e12b4fa289f8adb3d8fda40d99bf92b10788419c4aa"
 
-  url "https://github.com/portbay-app/portbay/releases/download/v#{version}/PortBay_0.1.4_aarch64.dmg"
+  url "https://github.com/portbay-app/portbay/releases/download/v#{version}/PortBay_0.1.5_aarch64.dmg"
   name "PortBay"
   desc "Lightweight local development environment manager"
   homepage "https://portbay.app"
